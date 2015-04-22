@@ -30,7 +30,7 @@ private:
   * Constructor.
 */
 Uptime::Uptime() {
-	LOGIN_MSG="Welcome to Uptime Monitor.  Commands end with ;\nYour Uptime connection id is 47\n";
+	LOGIN_MSG="Welcome to Uptime Monitor.  Commands| stats,help; \nYour Uptime connection id is \n";
 	CMD_ENTRY_ERROR="Command not listed; Try stats;help;quit;\n";
 	STAT_HEADERS="|ID\t\t|Service\t\t|Uptime\t\t|Downtime\t\t|Date";
 }
